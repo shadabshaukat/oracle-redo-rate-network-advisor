@@ -29,24 +29,36 @@ The script uses SQL*Plus to connect to the database and run a SQL query to get t
 
 ## Usage
 
-### Clone the repo
+### 1. Clone the repo
 
     git clone https://github.com/shadabshaukat/oracle-redo-rate-network-advisor.git
 
-### Change to the oracle-redo-rate-network-advisor directory:
+### 2. Change to the oracle-redo-rate-network-advisor directory:
 
     cd oracle-redo-rate-network-advisor
     
-### Run the Script
+### 3. Run the Script
 
     ./redo_rate_nw_advisor.sh
 
 ### Sample Output
+
+    +++++++++++++++++++++++++++++++++++++++++
+    Redo rate in bytes per sec: 48863.5089
+    +++++++++++++++++++++++++++++++++++++++++
+    Required bandwidth in Mbps: .521210 Mbps
+    Required bandwidth in Gbps: .000521 Gbps
+    -----------------------------------------
+    Required bandwidth in MB/s: .065151 MB/s
+    Required bandwidth in GB/s: .000065 GB/s
+    +++++++++++++++++++++++++++++++++++++++++
+
+    Recommended Network Connection Type for Data Guard: OCI IPSec VPN 250 Mbps
     
-### License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Disclaimer
+## Disclaimer
 
 The script is provided as-is and is not guaranteed to work on all systems or with all versions of Oracle. Use at your own risk.
